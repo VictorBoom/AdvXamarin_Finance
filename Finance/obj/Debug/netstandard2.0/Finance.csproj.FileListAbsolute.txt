@@ -1,0 +1,12 @@
+/Users/victor/Projects/Finance/Finance/bin/Debug/netstandard2.0/Finance.deps.json
+/Users/victor/Projects/Finance/Finance/bin/Debug/netstandard2.0/Finance.dll
+/Users/victor/Projects/Finance/Finance/bin/Debug/netstandard2.0/Finance.pdb
+/Users/victor/Projects/Finance/Finance/obj/Debug/netstandard2.0/App.xaml.g.cs
+/Users/victor/Projects/Finance/Finance/obj/Debug/netstandard2.0/View/MainPage.xaml.g.cs
+/Users/victor/Projects/Finance/Finance/obj/Debug/netstandard2.0/View/PostPage.xaml.g.cs
+/Users/victor/Projects/Finance/Finance/obj/Debug/netstandard2.0/Finance.csproj.CoreCompileInputs.cache
+/Users/victor/Projects/Finance/Finance/obj/Debug/netstandard2.0/Finance.AssemblyInfoInputs.cache
+/Users/victor/Projects/Finance/Finance/obj/Debug/netstandard2.0/Finance.AssemblyInfo.cs
+/Users/victor/Projects/Finance/Finance/obj/Debug/netstandard2.0/XamlC.stamp
+/Users/victor/Projects/Finance/Finance/obj/Debug/netstandard2.0/Finance.dll
+/Users/victor/Projects/Finance/Finance/obj/Debug/netstandard2.0/Finance.pdb
