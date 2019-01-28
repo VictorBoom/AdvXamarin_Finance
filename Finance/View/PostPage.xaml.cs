@@ -23,7 +23,7 @@ namespace Finance.View
             {
 
                 throw (new Exception("Unable to load blog"));
-                //Xamarin.Forms.PlatformConfiguration.iOSSpecific.Page.SetUseSafeArea(this, true);
+
 
                 webView.Source = item.ItemLink;
 
