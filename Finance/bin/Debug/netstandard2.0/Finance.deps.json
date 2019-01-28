@@ -1,7 +1,7 @@
 {
   "runtimeTarget": {
     "name": ".NETStandard,Version=v2.0/",
-    "signature": "c13ab3e9dd0afa602671531bfe3629542f85aa4e"
+    "signature": "f400b7626bcc6628f1d36ce235b57759f083f070"
   },
   "compilationOptions": {},
   "targets": {
@@ -9,11 +9,43 @@
     ".NETStandard,Version=v2.0/": {
       "Finance/1.0.0": {
         "dependencies": {
+          "Microsoft.AppCenter.Analytics": "1.13.0",
+          "Microsoft.AppCenter.Crashes": "1.13.0",
           "NETStandard.Library": "2.0.3",
           "Xamarin.Forms": "3.3.0.967583"
         },
         "runtime": {
           "Finance.dll": {}
+        }
+      },
+      "Microsoft.AppCenter/1.13.0": {
+        "runtime": {
+          "lib/netstandard1.0/Microsoft.AppCenter.dll": {
+            "assemblyVersion": "0.0.0.0",
+            "fileVersion": "1.13.0.0"
+          }
+        }
+      },
+      "Microsoft.AppCenter.Analytics/1.13.0": {
+        "dependencies": {
+          "Microsoft.AppCenter": "1.13.0"
+        },
+        "runtime": {
+          "lib/netstandard1.0/Microsoft.AppCenter.Analytics.dll": {
+            "assemblyVersion": "0.0.0.0",
+            "fileVersion": "1.13.0.0"
+          }
+        }
+      },
+      "Microsoft.AppCenter.Crashes/1.13.0": {
+        "dependencies": {
+          "Microsoft.AppCenter": "1.13.0"
+        },
+        "runtime": {
+          "lib/netstandard1.0/Microsoft.AppCenter.Crashes.dll": {
+            "assemblyVersion": "0.0.0.0",
+            "fileVersion": "1.13.0.0"
+          }
         }
       },
       "Microsoft.NETCore.Platforms/1.1.0": {},
@@ -45,6 +77,27 @@
       "type": "project",
       "serviceable": false,
       "sha512": ""
+    },
+    "Microsoft.AppCenter/1.13.0": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-klt1cUPSa2ZI0elNTrFXiQo51mdh6DUpmiurZK68YdubpiPW3dJ3K/IFfykZPSfh1ALBuDar6DMpJJGa3Mn2wg==",
+      "path": "microsoft.appcenter/1.13.0",
+      "hashPath": "microsoft.appcenter.1.13.0.nupkg.sha512"
+    },
+    "Microsoft.AppCenter.Analytics/1.13.0": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-XpvEnf0Vx2MgREOfjBXyFRdRARNTv44NuIV/IujEkAcibGJhQzMu03PChAVACKsBm8zvsMNxfHT51JSklS7Jrw==",
+      "path": "microsoft.appcenter.analytics/1.13.0",
+      "hashPath": "microsoft.appcenter.analytics.1.13.0.nupkg.sha512"
+    },
+    "Microsoft.AppCenter.Crashes/1.13.0": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-JhQpYJnBNeLcOmIsVruGirtVgFfAwBQ3maiUxs5GXHoU7lWcdOt4vA480THinHwjeO8nO6CP//4RB7OUQ3ieCA==",
+      "path": "microsoft.appcenter.crashes/1.13.0",
+      "hashPath": "microsoft.appcenter.crashes.1.13.0.nupkg.sha512"
     },
     "Microsoft.NETCore.Platforms/1.1.0": {
       "type": "package",

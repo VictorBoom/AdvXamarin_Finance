@@ -1,7 +1,13 @@
 ﻿<Properties StartupConfiguration="{01F0BE2C-4C2D-4AC1-B976-02D10EB3C1C7}|Default">
   <MonoDevelop.Ide.ItemProperties.Finance.Android PreferredExecutionTarget="Android.db82ecf8" />
-  <MonoDevelop.Ide.Workbench />
-  <MonoDevelop.Ide.ItemProperties.Finance.iOS FirstBuild="True" />
+  <MonoDevelop.Ide.Workbench ActiveDocument="Estado de Finance">
+    <Files>
+      <File FileName="Finance/App.xaml.cs" Line="22" Column="76" />
+      <File FileName="Finance/View/PostPage.xaml.cs" Line="38" Column="1" />
+      <File FileName="Estado de Finance" />
+    </Files>
+  </MonoDevelop.Ide.Workbench>
+  <MonoDevelop.Ide.ItemProperties.Finance.iOS FirstBuild="True" automaticSigning="False" />
   <MonoDevelop.Ide.DebuggingService.PinnedWatches />
   <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" />
   <MonoDevelop.Ide.DebuggingService.Breakpoints>

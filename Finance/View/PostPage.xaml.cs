@@ -1,6 +1,7 @@
 ﻿using System;
 using System.Collections.Generic;
 using Finance.Model;
+using Microsoft.AppCenter.Crashes;
 using Xamarin.Forms;
 
 namespace Finance.View
@@ -18,8 +19,26 @@ namespace Finance.View
         {
             InitializeComponent();
             Xamarin.Forms.PlatformConfiguration.iOSSpecific.Page.SetUseSafeArea(this, true);
+            try
+            {
 
-            webView.Source = item.ItemLink;
+                throw (new Exception("Unable to load blog"));
+                //Xamarin.Forms.PlatformConfiguration.iOSSpecific.Page.SetUseSafeArea(this, true);
+
+                webView.Source = item.ItemLink;
+
+
+            }
+            catch(Exception ex)
+            {
+                var properties = new Dictionary<string, string>
+                {
+                    {"Block_Post", $"{item.Title}"}
+                };
+                Crashes.TrackError(ex, properties);
+
+            }
+
         }
     }
 }

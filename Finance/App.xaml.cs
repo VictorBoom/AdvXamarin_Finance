@@ -2,7 +2,8 @@
 using Xamarin.Forms;
 using Xamarin.Forms.Xaml;
 using Finance.View;
-
+using Microsoft.AppCenter;
+using Microsoft.AppCenter.Crashes;
 
 [assembly: XamlCompilation(XamlCompilationOptions.Compile)]
 namespace Finance
@@ -18,7 +19,8 @@ namespace Finance
 
         protected override void OnStart()
         {
-            // Handle when your app starts
+            string androidAppSecret = "1a29b15e-0d98-48a4-8857-b4bdb44e7cbe";
+            AppCenter.Start($"android={androidAppSecret}", typeof(Crashes));
         }
 
         protected override void OnSleep()

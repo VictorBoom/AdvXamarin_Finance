@@ -2,6 +2,12 @@
 /Users/victor/Projects/Finance/Finance.Android/obj/Debug/android/assets/Finance.dll
 /Users/victor/Projects/Finance/Finance.Android/obj/Debug/android/assets/FormsViewGroup.dll
 /Users/victor/Projects/Finance/Finance.Android/obj/Debug/android/assets/Java.Interop.dll
+/Users/victor/Projects/Finance/Finance.Android/obj/Debug/android/assets/Microsoft.AppCenter.Analytics.Android.Bindings.dll
+/Users/victor/Projects/Finance/Finance.Android/obj/Debug/android/assets/Microsoft.AppCenter.Analytics.dll
+/Users/victor/Projects/Finance/Finance.Android/obj/Debug/android/assets/Microsoft.AppCenter.Android.Bindings.dll
+/Users/victor/Projects/Finance/Finance.Android/obj/Debug/android/assets/Microsoft.AppCenter.Crashes.Android.Bindings.dll
+/Users/victor/Projects/Finance/Finance.Android/obj/Debug/android/assets/Microsoft.AppCenter.Crashes.dll
+/Users/victor/Projects/Finance/Finance.Android/obj/Debug/android/assets/Microsoft.AppCenter.dll
 /Users/victor/Projects/Finance/Finance.Android/obj/Debug/android/assets/Mono.Android.dll
 /Users/victor/Projects/Finance/Finance.Android/obj/Debug/android/assets/mscorlib.dll
 /Users/victor/Projects/Finance/Finance.Android/obj/Debug/android/assets/System.Core.dll
