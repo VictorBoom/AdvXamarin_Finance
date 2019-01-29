@@ -55,6 +55,20 @@
           }
         }
       },
+      "Microsoft.AppCenter.Push/1.13.0": {
+        "type": "package",
+        "dependencies": {
+          "Microsoft.AppCenter": "1.13.0"
+        },
+        "compile": {
+          "lib/Xamarin.iOS10/Microsoft.AppCenter.Push.dll": {},
+          "lib/Xamarin.iOS10/Microsoft.AppCenter.Push.iOS.Bindings.dll": {}
+        },
+        "runtime": {
+          "lib/Xamarin.iOS10/Microsoft.AppCenter.Push.dll": {},
+          "lib/Xamarin.iOS10/Microsoft.AppCenter.Push.iOS.Bindings.dll": {}
+        }
+      },
       "Xamarin.Forms/3.3.0.967583": {
         "type": "package",
         "compile": {
@@ -184,6 +198,7 @@
         "dependencies": {
           "Microsoft.AppCenter.Analytics": "1.13.0",
           "Microsoft.AppCenter.Crashes": "1.13.0",
+          "Microsoft.AppCenter.Push": "1.13.0",
           "Xamarin.Forms": "3.3.0.967583"
         },
         "compile": {
@@ -234,6 +249,20 @@
           "lib/Xamarin.iOS10/Microsoft.AppCenter.Crashes.iOS.Bindings.dll": {}
         }
       },
+      "Microsoft.AppCenter.Push/1.13.0": {
+        "type": "package",
+        "dependencies": {
+          "Microsoft.AppCenter": "1.13.0"
+        },
+        "compile": {
+          "lib/Xamarin.iOS10/Microsoft.AppCenter.Push.dll": {},
+          "lib/Xamarin.iOS10/Microsoft.AppCenter.Push.iOS.Bindings.dll": {}
+        },
+        "runtime": {
+          "lib/Xamarin.iOS10/Microsoft.AppCenter.Push.dll": {},
+          "lib/Xamarin.iOS10/Microsoft.AppCenter.Push.iOS.Bindings.dll": {}
+        }
+      },
       "Xamarin.Forms/3.3.0.967583": {
         "type": "package",
         "compile": {
@@ -363,6 +392,7 @@
         "dependencies": {
           "Microsoft.AppCenter.Analytics": "1.13.0",
           "Microsoft.AppCenter.Crashes": "1.13.0",
+          "Microsoft.AppCenter.Push": "1.13.0",
           "Xamarin.Forms": "3.3.0.967583"
         },
         "compile": {
@@ -413,6 +443,20 @@
           "lib/Xamarin.iOS10/Microsoft.AppCenter.Crashes.iOS.Bindings.dll": {}
         }
       },
+      "Microsoft.AppCenter.Push/1.13.0": {
+        "type": "package",
+        "dependencies": {
+          "Microsoft.AppCenter": "1.13.0"
+        },
+        "compile": {
+          "lib/Xamarin.iOS10/Microsoft.AppCenter.Push.dll": {},
+          "lib/Xamarin.iOS10/Microsoft.AppCenter.Push.iOS.Bindings.dll": {}
+        },
+        "runtime": {
+          "lib/Xamarin.iOS10/Microsoft.AppCenter.Push.dll": {},
+          "lib/Xamarin.iOS10/Microsoft.AppCenter.Push.iOS.Bindings.dll": {}
+        }
+      },
       "Xamarin.Forms/3.3.0.967583": {
         "type": "package",
         "compile": {
@@ -542,6 +586,7 @@
         "dependencies": {
           "Microsoft.AppCenter.Analytics": "1.13.0",
           "Microsoft.AppCenter.Crashes": "1.13.0",
+          "Microsoft.AppCenter.Push": "1.13.0",
           "Xamarin.Forms": "3.3.0.967583"
         },
         "compile": {
@@ -592,6 +637,20 @@
           "lib/Xamarin.iOS10/Microsoft.AppCenter.Crashes.iOS.Bindings.dll": {}
         }
       },
+      "Microsoft.AppCenter.Push/1.13.0": {
+        "type": "package",
+        "dependencies": {
+          "Microsoft.AppCenter": "1.13.0"
+        },
+        "compile": {
+          "lib/Xamarin.iOS10/Microsoft.AppCenter.Push.dll": {},
+          "lib/Xamarin.iOS10/Microsoft.AppCenter.Push.iOS.Bindings.dll": {}
+        },
+        "runtime": {
+          "lib/Xamarin.iOS10/Microsoft.AppCenter.Push.dll": {},
+          "lib/Xamarin.iOS10/Microsoft.AppCenter.Push.iOS.Bindings.dll": {}
+        }
+      },
       "Xamarin.Forms/3.3.0.967583": {
         "type": "package",
         "compile": {
@@ -721,6 +780,7 @@
         "dependencies": {
           "Microsoft.AppCenter.Analytics": "1.13.0",
           "Microsoft.AppCenter.Crashes": "1.13.0",
+          "Microsoft.AppCenter.Push": "1.13.0",
           "Xamarin.Forms": "3.3.0.967583"
         },
         "compile": {
@@ -792,6 +852,23 @@
         "runtimes/win10-x86/lib/uap10.0/Microsoft.AppCenter.Crashes.dll",
         "runtimes/win10-x86/lib/uap10.0/WatsonRegistrationUtility.winmd",
         "runtimes/win10-x86/native/WatsonRegistrationUtility.dll"
+      ]
+    },
+    "Microsoft.AppCenter.Push/1.13.0": {
+      "sha512": "vSogc6XIAXLaFHq33sAQsGTrW7QJh0oDWAoJ49DngQ+phCOjoo4NZNEHgUecZuwofl06e4WhGN3dckqe+eCo4A==",
+      "type": "package",
+      "path": "microsoft.appcenter.push/1.13.0",
+      "files": [
+        ".signature.p7s",
+        "lib/MonoAndroid403/Microsoft.AppCenter.Push.Android.Bindings.dll",
+        "lib/MonoAndroid403/Microsoft.AppCenter.Push.dll",
+        "lib/Xamarin.iOS10/Microsoft.AppCenter.Push.dll",
+        "lib/Xamarin.iOS10/Microsoft.AppCenter.Push.iOS.Bindings.dll",
+        "lib/netstandard1.0/Microsoft.AppCenter.Push.dll",
+        "lib/portable-net45+win8+wpa81+wp8/Microsoft.AppCenter.Push.dll",
+        "lib/uap10.0/Microsoft.AppCenter.Push.dll",
+        "microsoft.appcenter.push.1.13.0.nupkg.sha512",
+        "microsoft.appcenter.push.nuspec"
       ]
     },
     "Xamarin.Forms/3.3.0.967583": {
@@ -950,6 +1027,7 @@
       "Finance >= 1.0.0",
       "Microsoft.AppCenter.Analytics >= 1.13.0",
       "Microsoft.AppCenter.Crashes >= 1.13.0",
+      "Microsoft.AppCenter.Push >= 1.13.0",
       "Xamarin.Forms >= 3.3.0.967583"
     ]
   },
@@ -992,6 +1070,10 @@
             "version": "[1.13.0, )"
           },
           "Microsoft.AppCenter.Crashes": {
+            "target": "Package",
+            "version": "[1.13.0, )"
+          },
+          "Microsoft.AppCenter.Push": {
             "target": "Package",
             "version": "[1.13.0, )"
           },

@@ -1,10 +1,10 @@
 ﻿using System;
+using System.Threading.Tasks;
+
 namespace Finance.Interfaces
 {
-    public class IShare
+    public interface IShare
     {
-        public IShare()
-        {
-        }
+        Task Show(string title, string url);
     }
 }

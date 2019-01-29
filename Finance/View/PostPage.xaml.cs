@@ -1,6 +1,8 @@
 ﻿using System;
 using System.Collections.Generic;
 using Finance.Model;
+using Finance.ViewModel;
+using Microsoft.AppCenter.Analytics;
 using Microsoft.AppCenter.Crashes;
 using Xamarin.Forms;
 
@@ -8,10 +10,12 @@ namespace Finance.View
 {
     public partial class PostPage : ContentPage
     {
+        PostVM ViewModel;
         public PostPage()
         {
             InitializeComponent();
             Xamarin.Forms.PlatformConfiguration.iOSSpecific.Page.SetUseSafeArea(this, true);
+            ViewModel = Resources["vm"] as PostVM;
         }
 
 
@@ -19,14 +23,25 @@ namespace Finance.View
         {
             InitializeComponent();
             Xamarin.Forms.PlatformConfiguration.iOSSpecific.Page.SetUseSafeArea(this, true);
+            ViewModel = Resources["vm"] as PostVM;
+            ViewModel.SelectedPost = item;
+
+
+
             try
             {
+                Title = item.Title;
+                postImage.Source = item.Enclosure.Url;
+                creatorLabel.Text = item.Creator;
+                dateLabel.Text = item.PublishedDate.ToString("MMMM dd");
+                descriptionLabel.Text = item.Description;
 
-                throw (new Exception("Unable to load blog"));
+                var properties = new Dictionary<string, string>
+                {
+                    {"Blog_Post", $"{item.Title}"}
+                };
 
-
-                webView.Source = item.ItemLink;
-
+                TrackEvent(properties);
 
             }
             catch(Exception ex)
@@ -35,10 +50,25 @@ namespace Finance.View
                 {
                     {"Block_Post", $"{item.Title}"}
                 };
-                Crashes.TrackError(ex, properties);
+                TrackError(ex, properties);
 
             }
 
+
+                
         }
+
+        private async void TrackEvent(Dictionary<string, string> properties)
+        {
+            if (await Analytics.IsEnabledAsync())
+                Analytics.TrackEvent("Blog_Post_Opened", properties);
+        }
+
+        private async void TrackError(Exception ex,Dictionary<string, string> properties)
+        {
+            if (await Crashes.IsEnabledAsync())
+                Crashes.TrackError(ex, properties);
+        }
+
     }
 }

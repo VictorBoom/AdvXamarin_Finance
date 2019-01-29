@@ -1,15 +1,15 @@
-﻿<Properties StartupConfiguration="{01F0BE2C-4C2D-4AC1-B976-02D10EB3C1C7}|Default">
-  <MonoDevelop.Ide.ItemProperties.Finance.Android PreferredExecutionTarget="Android.db82ecf8" />
+﻿<Properties StartupConfiguration="{2A47D5DD-CED9-42AF-BC82-22E464E89543}|Default">
+  <MonoDevelop.Ide.ItemProperties.Finance.Android AndroidDesignerPreferredTheme="Theme.DeviceDefault.NoActionBar.Fullscreen" PreferredExecutionTarget="Android.db82ecf8" />
   <MonoDevelop.Ide.Workbench ActiveDocument="Estado de Finance">
     <Files>
-      <File FileName="Finance/App.xaml.cs" Line="22" Column="76" />
-      <File FileName="Finance/View/PostPage.xaml.cs" Line="38" Column="1" />
+      <File FileName="Finance/App.xaml.cs" Line="25" Column="105" />
+      <File FileName="Finance.Android/Properties/AndroidManifest.xml" Line="16" Column="12" />
       <File FileName="Estado de Finance" />
     </Files>
   </MonoDevelop.Ide.Workbench>
-  <MonoDevelop.Ide.ItemProperties.Finance.iOS FirstBuild="True" automaticSigning="False" />
+  <MonoDevelop.Ide.ItemProperties.Finance.iOS automaticSigning="False" PreferredExecutionTarget="MonoDevelop.IPhone.IPhoneSimulatorTarget.833EE97D-5315-467F-8D4A-0D8331D39CEB" />
   <MonoDevelop.Ide.DebuggingService.PinnedWatches />
-  <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" />
+  <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug|iPhone" />
   <MonoDevelop.Ide.DebuggingService.Breakpoints>
     <BreakpointStore />
   </MonoDevelop.Ide.DebuggingService.Breakpoints>
