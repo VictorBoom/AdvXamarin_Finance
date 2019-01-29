@@ -21,6 +21,12 @@
     <Jar>/Users/victor/Projects/Finance/Finance.Android/obj/Debug/lp/25/jl/bin/classes.jar</Jar>
     <Jar>/Users/victor/Projects/Finance/Finance.Android/obj/Debug/lp/26/jl/bin/classes.jar</Jar>
     <Jar>/Users/victor/Projects/Finance/Finance.Android/obj/Debug/lp/27/jl/bin/classes.jar</Jar>
+    <Jar>/Users/victor/Projects/Finance/Finance.Android/obj/Debug/lp/33/jl/bin/classes.jar</Jar>
+    <Jar>/Users/victor/Projects/Finance/Finance.Android/obj/Debug/lp/35/jl/classes.jar</Jar>
+    <Jar>/Users/victor/Projects/Finance/Finance.Android/obj/Debug/lp/36/jl/classes.jar</Jar>
+    <Jar>/Users/victor/Projects/Finance/Finance.Android/obj/Debug/lp/37/jl/classes.jar</Jar>
+    <Jar>/Users/victor/Projects/Finance/Finance.Android/obj/Debug/lp/38/jl/classes.jar</Jar>
+    <Jar>/Users/victor/Projects/Finance/Finance.Android/obj/Debug/lp/39/jl/classes.jar</Jar>
     <Jar>/Users/victor/Projects/Finance/Finance.Android/obj/Debug/lp/4/jl/bin/classes.jar</Jar>
     <Jar>/Users/victor/Projects/Finance/Finance.Android/obj/Debug/lp/5/jl/bin/classes.jar</Jar>
     <Jar>/Users/victor/Projects/Finance/Finance.Android/obj/Debug/lp/9/jl/arch-core-common.jar</Jar>
@@ -29,6 +35,8 @@
     <ResolvedResourceDirectory>/Users/victor/Projects/Finance/Finance.Android/obj/Debug/lp/3/jl/res</ResolvedResourceDirectory>
     <ResolvedResourceDirectory>/Users/victor/Projects/Finance/Finance.Android/obj/Debug/lp/6/jl/res</ResolvedResourceDirectory>
     <ResolvedResourceDirectory>/Users/victor/Projects/Finance/Finance.Android/obj/Debug/lp/7/jl/res</ResolvedResourceDirectory>
+    <ResolvedResourceDirectory>/Users/victor/Projects/Finance/Finance.Android/obj/Debug/lp/33/jl/res</ResolvedResourceDirectory>
+    <ResolvedResourceDirectory>/Users/victor/Projects/Finance/Finance.Android/obj/Debug/lp/34/jl/res</ResolvedResourceDirectory>
     <ResolvedResourceDirectory>/Users/victor/Projects/Finance/Finance.Android/obj/Debug/lp/14/jl/res</ResolvedResourceDirectory>
     <ResolvedResourceDirectory>/Users/victor/Projects/Finance/Finance.Android/obj/Debug/lp/17/jl/res</ResolvedResourceDirectory>
     <ResolvedResourceDirectory>/Users/victor/Projects/Finance/Finance.Android/obj/Debug/lp/19/jl/res</ResolvedResourceDirectory>
@@ -38,11 +46,14 @@
     <ResolvedResourceDirectory>/Users/victor/Projects/Finance/Finance.Android/obj/Debug/lp/23/jl/res</ResolvedResourceDirectory>
     <ResolvedResourceDirectory>/Users/victor/Projects/Finance/Finance.Android/obj/Debug/lp/24/jl/res</ResolvedResourceDirectory>
     <ResolvedResourceDirectory>/Users/victor/Projects/Finance/Finance.Android/obj/Debug/lp/26/jl/res</ResolvedResourceDirectory>
+    <ResolvedResourceDirectory>/Users/victor/Projects/Finance/Finance.Android/obj/Debug/lp/37/jl/res</ResolvedResourceDirectory>
+    <ResolvedResourceDirectory>/Users/victor/Projects/Finance/Finance.Android/obj/Debug/lp/38/jl/res</ResolvedResourceDirectory>
   </ResolvedResourceDirectories>
   <ResolvedAssetDirectories>
     <ResolvedAssetDirectory>obj/Debug/lp/3/jl/assets</ResolvedAssetDirectory>
     <ResolvedAssetDirectory>obj/Debug/lp/6/jl/assets</ResolvedAssetDirectory>
     <ResolvedAssetDirectory>obj/Debug/lp/7/jl/assets</ResolvedAssetDirectory>
+    <ResolvedAssetDirectory>obj/Debug/lp/34/jl/assets</ResolvedAssetDirectory>
     <ResolvedAssetDirectory>obj/Debug/lp/21/jl/assets</ResolvedAssetDirectory>
   </ResolvedAssetDirectories>
   <ResolvedEnvironmentFiles />
@@ -50,6 +61,8 @@
     <ResolvedResourceDirectoryStamp>/Users/victor/Projects/Finance/Finance.Android/obj/Debug/lp/3.stamp</ResolvedResourceDirectoryStamp>
     <ResolvedResourceDirectoryStamp>/Users/victor/Projects/Finance/Finance.Android/obj/Debug/lp/6.stamp</ResolvedResourceDirectoryStamp>
     <ResolvedResourceDirectoryStamp>/Users/victor/Projects/Finance/Finance.Android/obj/Debug/lp/7.stamp</ResolvedResourceDirectoryStamp>
+    <ResolvedResourceDirectoryStamp>/Users/victor/Projects/Finance/Finance.Android/obj/Debug/lp/33.stamp</ResolvedResourceDirectoryStamp>
+    <ResolvedResourceDirectoryStamp>/Users/victor/Projects/Finance/Finance.Android/obj/Debug/lp/34.stamp</ResolvedResourceDirectoryStamp>
     <ResolvedResourceDirectoryStamp>/Users/victor/Projects/Finance/Finance.Android/obj/Debug/lp/14.stamp</ResolvedResourceDirectoryStamp>
     <ResolvedResourceDirectoryStamp>/Users/victor/Projects/Finance/Finance.Android/obj/Debug/lp/17.stamp</ResolvedResourceDirectoryStamp>
     <ResolvedResourceDirectoryStamp>/Users/victor/Projects/Finance/Finance.Android/obj/Debug/lp/19.stamp</ResolvedResourceDirectoryStamp>
@@ -59,5 +72,7 @@
     <ResolvedResourceDirectoryStamp>/Users/victor/Projects/Finance/Finance.Android/obj/Debug/lp/23.stamp</ResolvedResourceDirectoryStamp>
     <ResolvedResourceDirectoryStamp>/Users/victor/Projects/Finance/Finance.Android/obj/Debug/lp/24.stamp</ResolvedResourceDirectoryStamp>
     <ResolvedResourceDirectoryStamp>/Users/victor/Projects/Finance/Finance.Android/obj/Debug/lp/26.stamp</ResolvedResourceDirectoryStamp>
+    <ResolvedResourceDirectoryStamp>/Users/victor/Projects/Finance/Finance.Android/obj/Debug/lp/37.stamp</ResolvedResourceDirectoryStamp>
+    <ResolvedResourceDirectoryStamp>/Users/victor/Projects/Finance/Finance.Android/obj/Debug/lp/38.stamp</ResolvedResourceDirectoryStamp>
   </ResolvedResourceDirectoryStamps>
 </Paths>

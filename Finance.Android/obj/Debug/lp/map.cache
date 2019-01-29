@@ -31,3 +31,10 @@ Xamarin.Forms.Platform.Android
 Xamarin.Forms.Platform
 Xamarin.Forms.Xaml
 netstandard
+Microsoft.AppCenter.Push.Android.Bindings
+Microsoft.AppCenter.Push
+Xamarin.Firebase.Common
+Xamarin.Firebase.Iid
+Xamarin.Firebase.Messaging
+Xamarin.GooglePlayServices.Basement
+Xamarin.GooglePlayServices.Tasks

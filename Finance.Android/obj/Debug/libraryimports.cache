@@ -18,6 +18,12 @@
     <ManifestDocument>obj/Debug/lp/25/jl/AndroidManifest.xml</ManifestDocument>
     <ManifestDocument>obj/Debug/lp/26/jl/AndroidManifest.xml</ManifestDocument>
     <ManifestDocument>obj/Debug/lp/27/jl/AndroidManifest.xml</ManifestDocument>
+    <ManifestDocument>obj/Debug/lp/33/jl/AndroidManifest.xml</ManifestDocument>
+    <ManifestDocument>obj/Debug/lp/35/jl/AndroidManifest.xml</ManifestDocument>
+    <ManifestDocument>obj/Debug/lp/36/jl/AndroidManifest.xml</ManifestDocument>
+    <ManifestDocument>obj/Debug/lp/37/jl/AndroidManifest.xml</ManifestDocument>
+    <ManifestDocument>obj/Debug/lp/38/jl/AndroidManifest.xml</ManifestDocument>
+    <ManifestDocument>obj/Debug/lp/39/jl/AndroidManifest.xml</ManifestDocument>
     <ManifestDocument>obj/Debug/lp/4/jl/AndroidManifest.xml</ManifestDocument>
     <ManifestDocument>obj/Debug/lp/5/jl/AndroidManifest.xml</ManifestDocument>
   </ManifestDocuments>
@@ -43,6 +49,12 @@
     <Jar>obj/Debug/lp/25/jl/bin/classes.jar</Jar>
     <Jar>obj/Debug/lp/26/jl/bin/classes.jar</Jar>
     <Jar>obj/Debug/lp/27/jl/bin/classes.jar</Jar>
+    <Jar>obj/Debug/lp/33/jl/bin/classes.jar</Jar>
+    <Jar>obj/Debug/lp/35/jl/classes.jar</Jar>
+    <Jar>obj/Debug/lp/36/jl/classes.jar</Jar>
+    <Jar>obj/Debug/lp/37/jl/classes.jar</Jar>
+    <Jar>obj/Debug/lp/38/jl/classes.jar</Jar>
+    <Jar>obj/Debug/lp/39/jl/classes.jar</Jar>
     <Jar>obj/Debug/lp/4/jl/bin/classes.jar</Jar>
     <Jar>obj/Debug/lp/5/jl/bin/classes.jar</Jar>
     <Jar>obj/Debug/lp/9/jl/arch-core-common.jar</Jar>
